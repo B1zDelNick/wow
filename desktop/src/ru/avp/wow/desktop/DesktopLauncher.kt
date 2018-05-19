@@ -3,7 +3,7 @@ package ru.avp.wow.desktop
 import com.badlogic.gdx.backends.lwjgl.LwjglApplication
 import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration
 import com.mygdx.game.GameConstants
-import ru.avp.wow.WowGame
+import ru.avp.wow.Main
 
 object DesktopLauncher {
     @JvmStatic
@@ -14,6 +14,6 @@ object DesktopLauncher {
         config.height = GameConstants.GAME_HEIGHT
         config.useGL30 = false
         config.title = "World of Wizards"
-        LwjglApplication(WowGame(), config)
+        LwjglApplication(Main(), config)
     }
 }

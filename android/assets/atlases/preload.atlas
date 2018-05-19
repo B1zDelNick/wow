@@ -1,0 +1,20 @@
+
+preload.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg_preload
+  rotate: false
+  xy: 2, 2
+  size: 480, 775
+  orig: 480, 775
+  offset: 0, 0
+  index: -1
+logo_preload
+  rotate: false
+  xy: 484, 508
+  size: 480, 269
+  orig: 480, 269
+  offset: 0, 0
+  index: -1
